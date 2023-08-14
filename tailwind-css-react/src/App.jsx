@@ -1,4 +1,5 @@
 import "./App.css";
+import Card1 from "./Components/Card1";
 import PrimerCard1 from "./Components/PrimerCard1";
 import TypoGraphy from "./Components/TypoGraphy";
 
@@ -10,8 +11,16 @@ function App() {
           Tailwind CSS React
         </h1>
       </div>
-      {/* <TypoGraphy/> */}
-      <PrimerCard1 />
+
+      {/* Components */}
+      <div className="mt-10 flex flex-col">
+        <div>
+          <PrimerCard1 />
+        </div>
+        <div>
+          <Card1 />
+        </div>
+      </div>
     </>
   );
 }
